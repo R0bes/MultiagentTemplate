@@ -1,0 +1,15 @@
+task_id: "<slug>"
+agent_type: "<meta|architect|solver|tester|judge>"
+created_at: "yyyy-mm-ddThh:mm:ss+02:00"
+workstream: "<frontend|backend|data|infra|other>"
+description: "<one-line goal>"
+notes: "<short context>"
+estimate_seconds: 180
+parent_job_id: "<optional slug>"
+related_job_ids: []        # optional
+contract_id: "<optional>"  # if applicable
+acceptance:
+  done_when:
+    - "<bullet>"
+  checks:
+    - "<smoke|happy-path|contract>"
