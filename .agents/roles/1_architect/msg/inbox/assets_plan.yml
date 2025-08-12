@@ -1,0 +1,18 @@
+Arbeitsbereich: Asset Pipeline & Graphics
+Umfang: Charakterdesign, Animationen, UI-Elemente, Sound-Effekte
+Liefergegenstände:
+  - Yogi-Charakter mit verschiedenen Yoga-Posen
+  - Distraktionen (Telefon, Nachbarn, Tiere) mit Animationen
+  - UI-Icons und -Elemente
+  - Hintergrund-Grafiken und Umgebung
+  - Sound-Effekte für Interaktionen
+Einschränkungen:
+  - Gesamtgröße aller Assets unter 2MB
+  - Einfache, farbenfrohe Grafik im Cartoon-Stil
+  - Web-kompatible Audio-Formate
+Annahmehinweis:
+  - SVG für UI-Elemente wo möglich
+  - PNG für Charaktere und komplexe Grafiken
+  - MP3/OGG für Audio
+  - Konsistenter visueller Stil
+  - Optimierte Asset-Größen

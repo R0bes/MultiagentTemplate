@@ -39,22 +39,24 @@ Alle Agents müssen:
 2. **In Running kopieren** (`msg/running/`)
 3. **Bearbeiten und in Done verschieben** (`msg/done/`) oder bei Fehlern in `msg/failed/`
 
+
 ### Healthcheck
-- **Alle 2-5 Minuten** spätestens alle 5 Minuten
+- **Alle 2-3 Minuten**
 - Status und Fortschritt melden
 
+
 ### Task-Zeitlimit
-- **Tasks dürfen nicht länger als 5 Minuten dauern**
+- **Tasks dürfen nicht länger als 3 Minuten dauern**
 - **Aufwand zu Beginn schätzen**
-- **Bei >5 Minuten**: Task in zwei Teile aufteilen (falls möglich)
+- **Bei >3 Minuten**: Task in zwei Teile aufteilen (falls möglich)
 - **Falls nicht teilbar**: Warnung ausgeben
+
 
 ### Reporting
 - **Alle Agents müssen kontinuierlich reporten**
 - Nach jeder Aktion Status aktualisieren
 - Fortschritt dokumentieren
 
----
 
 ## 🔐 Verzeichnisstruktur
 Jeder Agent hat folgende Verzeichnisstruktur:
@@ -63,27 +65,18 @@ Jeder Agent hat folgende Verzeichnisstruktur:
 - `msg/done/` - Abgeschlossene Aufgaben
 - `msg/failed/` - Fehlgeschlagene Aufgaben
 
----
+
+### Ausgabeformat für andere Agenten
+
+## Task-Template verwenden
+Alle Tasks müssen dem Template folgen:
+{{#include ../../templates/task.yml}}
+
 
 ## 🚦 Quality Gates
 - **Coverage**: Mindestens 85% Testabdeckung
 - **Linting**: Alle Regeln müssen passieren
 - **Performance**: Alle Limits einhalten
 
----
-
-## 📝 Ausgabeformat
-Alle Ausgaben folgen diesem Grundformat:
-```markdown
-## [Titel der Aufgabe]
-
-**Status**: [In Bearbeitung/Abgeschlossen/Fehlgeschlagen]
-**Zeitstempel**: [Datum und Uhrzeit]
-**Agent**: [Deine Rollenbezeichnung]
-
-[Inhalt der Ausgabe]
-```
-
----
 
 **AGENT_RULEZ** - Weil Regeln sind Regeln! 🚀⚡

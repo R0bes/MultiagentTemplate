@@ -1,0 +1,17 @@
+Arbeitsbereich: Frontend & UI Framework
+Umfang: HTML5 Canvas Setup, Responsive Design, Mobile-First Interface
+Liefergegenstände:
+  - Responsive HTML5 Canvas Container
+  - Mobile-First CSS für verschiedene Bildschirmgrößen
+  - Touch-Input-Interface für mobile Geräte
+  - Keyboard-Input-Interface für Desktop
+  - UI-Elemente (Calm-Meter, Score, Pause-Button)
+Einschränkungen:
+  - Muss in 5-Minuten-Tasks aufgeteilt werden
+  - Cross-Browser-Kompatibilität
+  - Mobile-Performance-Optimierung
+Annahmehinweis:
+  - Progressive Web App (PWA) Ansatz
+  - CSS Grid/Flexbox für Layout
+  - Touch-Event-Handling
+  - Responsive Breakpoints für verschiedene Geräte
